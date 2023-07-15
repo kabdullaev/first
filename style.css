@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 10px;
+    background-color: rgba(135, 4, 4, 0);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.promo {
+    background: url(./img/bg1/header/bg.png) no-repeat center / cover;
+
+    height: 800px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.promo h1 {
+    padding-top: 200px;
+}
+
+.promo .line {
+    padding: 20px;
+}
+
+.promo a {
+    display: inline-flex;
+}
+
+
+
+.h1 {
+
+    font-size: 46px;
+
+}
+
+.link {
+    padding-top: 20px;
+
+}
+
+.item {
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box_main {
+    padding-top: 50px;
+
+
+}
+
+.box_items {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 450px;
+    gap: 20px;
+}
+
+
+
+
+
+.bottom {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #e0bea2b9;
+    margin-top: 411px;
+
+}
+
+
+
+.end {
+    padding-top: 100px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.email {
+    width: 100%;
+    margin-top: 50px;
+    height: 50px;
+    padding: 0 20px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100%;
+
+    height: 50px;
+    padding: 0 20px;
+    background-color: #E0BEA2;
+    color: white;
+    border: 0;
+    margin-bottom: 20px;
+
+}
+
+
+
+.footer {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 74px;
+}
+
+.footer a {
+    color: black;
+}
+
+.footer h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.footer nav {
+    font-size: 16px;
+    padding-top: 5px;
+}
